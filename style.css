@@ -1950,3 +1950,126 @@ body.light .message-field label {
     box-shadow: 0 0 25px rgba(46, 168, 255, 0.35);
     border-color: rgba(46, 168, 255, 0.4);
 }
+
+/* =========================
+   MOBILE HERO FIX
+   ========================= */
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Hero layout */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 15px;
+  }
+
+  /* Photo comes first on mobile */
+  .hero-right {
+    order: -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-visual {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-photo {
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
+
+  .hero-photo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Text comes below image */
+  .hero-left {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Welcome text stays above "Hi, I'm", NOT over image */
+  .hero-left .eyebrow {
+    position: static;
+    margin: 0 0 10px;
+    transform: none;
+  }
+
+  .hero-left .intro {
+    margin-bottom: 8px;
+  }
+
+  .hero-left h1 {
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+
+  .hero-left h2 {
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+
+  /* Buttons */
+  .hero-actions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .hero-actions .btn {
+    min-width: 140px;
+  }
+
+  /* Stats */
+  .quick-stats {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .quick-stats > div {
+    min-width: 0;
+  }
+
+  /* Prevent sections from touching fixed navigation */
+  section {
+    scroll-margin-top: 80px;
+  }
+}
