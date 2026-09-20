@@ -620,3 +620,44 @@ document.addEventListener("keydown", function (event) {
     }
 
 });
+
+// Draggable Message Button
+const floatingMessage = document.querySelector(".floating-message-btn");
+
+let isDragging = false;
+let offsetX = 0;
+let offsetY = 0;
+
+floatingMessage.addEventListener("pointerdown", (e) => {
+  isDragging = true;
+
+  const rect = floatingMessage.getBoundingClientRect();
+
+  offsetX = e.clientX - rect.left;
+  offsetY = e.clientY - rect.top;
+
+  floatingMessage.setPointerCapture(e.pointerId);
+});
+
+floatingMessage.addEventListener("pointermove", (e) => {
+  if (!isDragging) return;
+
+  let x = e.clientX - offsetX;
+  let y = e.clientY - offsetY;
+
+  // Keep button inside the screen
+  const maxX = window.innerWidth - floatingMessage.offsetWidth;
+  const maxY = window.innerHeight - floatingMessage.offsetHeight;
+
+  x = Math.max(0, Math.min(x, maxX));
+  y = Math.max(0, Math.min(y, maxY));
+
+  floatingMessage.style.left = `${x}px`;
+  floatingMessage.style.top = `${y}px`;
+  floatingMessage.style.right = "auto";
+  floatingMessage.style.bottom = "auto";
+});
+
+floatingMessage.addEventListener("pointerup", () => {
+  isDragging = false;
+});
