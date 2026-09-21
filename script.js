@@ -189,7 +189,7 @@ function openSkillModal(key) {
 
   // GitHub profile link
   modalGithub.href =
-    "https://github.com/nowfiyashakkina";
+    "https://github.com/Nowfiya-jeshmi";
 
   skillModal.classList.add("open");
 
@@ -511,7 +511,7 @@ const projectDetails = {
       "Used MySQL for database integration.",
       "Used Git and GitHub for version control."
     ],
-    github: "https://github.com/Nowfiyashakkina"
+    github: "https://github.com/Nowfiya-jeshmi"
   }
 };
 
