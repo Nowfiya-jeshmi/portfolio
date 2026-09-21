@@ -340,7 +340,7 @@ const projectData = {
         ],
 
         github:
-            "https://github.com/nowfiyashakkina"
+            "https://github.com/Nowfiya-jeshmi"
     },
 
 
@@ -370,7 +370,7 @@ const projectData = {
         ],
 
         github:
-            "https://github.com/nowfiyashakkina"
+            "https://github.com/Nowfiya-jeshmi"
     },
 
 
@@ -402,7 +402,7 @@ const projectData = {
         ],
 
         github:
-            "https://github.com/nowfiyashakkina"
+            "https://github.com/Nowfiya-jeshmi"
     },
 
 
@@ -433,7 +433,7 @@ const projectData = {
         ],
 
         github:
-            "https://github.com/nowfiyashakkina"
+            "https://github.com/Nowfiya-jeshmi"
     }
 
 };
@@ -451,7 +451,7 @@ const projectDetails = {
       "Blynk App used for real-time monitoring.",
       "Helps reduce water wastage and manual effort."
     ],
-    github: "https://github.com/nowfiyashakkina/automatic-irrigation-system.git"
+    github: "https://github.com/Nowfiya-jeshmi/automatic-irrigation-system.git"
   },
 
   laser: {
@@ -466,7 +466,7 @@ const projectDetails = {
       "Triggered a buzzer when unauthorized access was detected.",
       "Designed for real-time security monitoring."
     ],
-    github: "https://github.com/nowfiyashakkina"
+    github: "https://github.com/Nowfiya-jeshmi"
   },
 
   guardian: {
@@ -481,7 +481,22 @@ const projectDetails = {
       "Designed for restricted-area security monitoring.",
       "Supports automated safety alerts."
     ],
-    github: "https://github.com/nowfiyashakkina"
+    github: "https://github.com/Nowfiya-jeshmi"
+  },
+
+  elite: {
+    title: "Elite Exhaust Care – LPG Leakage and Smoke Detection Safety System",
+    category: "IoT • ESP8266 • Embedded Systems",
+    description:
+      "An IoT-based kitchen safety monitoring system designed to detect LPG gas leakage, smoke, fire, and abnormal temperature levels in real time.",
+    details: [
+      "Developed an IoT-based kitchen safety monitoring system for real-time hazard detection.",
+      "Integrated MQ-2 gas, flame, and temperature sensors with ESP8266.",
+      "Implemented buzzer alerts and Wi-Fi-based notifications for emergency warnings.",
+      "Enabled remote monitoring through Blynk and Firebase.",
+      "Designed the system to support faster response and improved household safety."
+    ],
+    github: "https://github.com/Nowfiya-jeshmi"
   },
 
   ecommerce: {
@@ -496,7 +511,7 @@ const projectDetails = {
       "Used MySQL for database integration.",
       "Used Git and GitHub for version control."
     ],
-    github: "https://github.com/nowfiyashakkina"
+    github: "https://github.com/Nowfiyashakkina"
   }
 };
 
