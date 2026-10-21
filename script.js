@@ -466,7 +466,7 @@ const projectDetails = {
       "Triggered a buzzer when unauthorized access was detected.",
       "Designed for real-time security monitoring."
     ],
-    github: "https://github.com/Nowfiya-jeshmi"
+    github: "https://github.com/Nowfiya-jeshmi/LaserBeam-SecurityGuard.git"
   },
 
   guardian: {
@@ -481,7 +481,7 @@ const projectDetails = {
       "Designed for restricted-area security monitoring.",
       "Supports automated safety alerts."
     ],
-    github: "https://github.com/Nowfiya-jeshmi"
+    github: "https://github.com/Nowfiya-jeshmi/Guardian-Care-Autonomous-Safety-Network.git"
   },
 
   elite: {
@@ -496,7 +496,7 @@ const projectDetails = {
       "Enabled remote monitoring through Blynk and Firebase.",
       "Designed the system to support faster response and improved household safety."
     ],
-    github: "https://github.com/Nowfiya-jeshmi"
+    github: "https://github.com/Nowfiya-jeshmi/Elite-Exhaust-Care-LPG-Leakage-and-Smoke-Detection.git"
   },
 
   ecommerce: {
@@ -511,7 +511,22 @@ const projectDetails = {
       "Used MySQL for database integration.",
       "Used Git and GitHub for version control."
     ],
-    github: "https://github.com/Nowfiya-jeshmi"
+    github: "https://github.com/Nowfiya-jeshmi/EcommerceAPIDevelopment.git"
+  },
+
+  mp3: {
+    title: "MP3 Tag Reader & Editort",
+    category: "C Programming · ID3 · File Handling",
+    description:
+      "A command-line application developed using C to read and edit metadata in MP3 audio files.",
+    details: [
+      "Read and display MP3 file metadata.",
+    "Edit supported ID3 tag information.",
+    "Worked with file handling and binary data.",
+    "Applied pointers and bitwise operations in C.",
+    "Used Git and GitHub for version control."
+    ],
+    github: "https://github.com/Nowfiya-jeshmi/MP3-Tag-reader.git"
   }
 };
 
